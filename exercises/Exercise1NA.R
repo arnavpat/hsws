@@ -22,9 +22,9 @@
 #
  r = exp(2)         	# exponential function
 q = abs(3 - 7)     	# Absolute value of (3-7)
-y = "TRUE"    			
-# x = FALSE
-# z = NA
+y = TRUE    			
+x= FALSE
+z = NA
 #
 # b. Using R, find and print the class of each variable. What do you notice about variable y?
 
@@ -45,7 +45,7 @@ y = "TRUE"
 # be all capitals (case is important in R).
 
 # b. In R, determine whether u and v are both true.
-
+u==v
 # c. In R, determine whether at least one of u OR v is true.
 
 # d. In R, find the opposite of v. 
@@ -78,10 +78,10 @@ celsius = c(20:25)	# sets a vector variable to contain the integers 20 through 2
 
 # a. Complete the assignment for the fahrenheit variable. For the formula, refer to: 
 # http://www.metric-conversions.org/temperature/celsius-to-fahrenheit.htm
-# fahrenheit =
+fahrenheit = (celsius*1.8+32)
 
-# b. Uncomment this line to create a data frame containing the temperature conversion:
-# conversion = data.frame(Celsius=celsius, Fahrenheit=fahrenheit)
+# b. Uncomment this line to create a data frame containing the temperature conversion:\
+ conversion = data.frame(Celsius=celsius, Fahrenheit=fahrenheit)
 
 # c. Print the temperature conversion.
 
